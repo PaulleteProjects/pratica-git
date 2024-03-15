@@ -15,7 +15,7 @@ def main():
 
     plt.plot(valores)
     plt.show()
-
+    plt.title('Gráfico de linhas')
 
 main()
 
