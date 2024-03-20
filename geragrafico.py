@@ -12,15 +12,15 @@ def main():
     plt.xlabel('Amostragem')
     plt.title('Gráfico de linhas')
 
-    for serie in valores:
-       plt.plot(serie)
-
- 
-    i = 1
+i = 1
 for serie in valores:
    plt.plot(serie, label='Série ' + str(i))   
    i += 1
 plt.legend(loc='upper left')
+
+
+ 
+    
 
     plt.show()
 
