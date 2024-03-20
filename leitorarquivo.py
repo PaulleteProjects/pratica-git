@@ -3,7 +3,6 @@ class LeitorArquivo:
         self.arq = open(nomeArquivo, 'r')
         self.__leValores()
 
-
     def __leValores(self):
         self.valores = []
         for linha in self.arq.readlines():
