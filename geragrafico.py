@@ -35,7 +35,7 @@ def main():
 
 
     #Plotando gráfico de barras (médias)
-    plt.subplot(1, 2, 2)
+    plt.subplot(1, 2, 2)git add .
    
     medias = leitor.getMedias()
     xvalues = np.arange(1, len(medias)+1)
