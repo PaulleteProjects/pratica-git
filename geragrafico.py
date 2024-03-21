@@ -27,6 +27,15 @@ def main():
     plt.title('Gráfico de linhas')
 
 
+     #Plotando gráfico de linhas
+    plt.subplot(1, 2, 1)
+
+
+    plt.xlabel('Valores de entrada')
+    plt.ylabel('Amostragem')    
+    plt.title('Gráfico de linhas')
+
+
     i = 1
     for serie in valores:
         plt.plot(serie, label = 'Série ' + str(i))
@@ -44,6 +53,7 @@ def main():
     plt.title('Médias das séries')
    
     plt.show()
+
 
 
 
