@@ -51,6 +51,13 @@ def main():
     plt.bar(xvalues, medias)  
     plt.xticks(xvalues, ['Série ' + str(x) for x in xvalues])
     plt.title('Médias das séries')
+
+
+    plt.ylabel('Valores de entrada')
+    plt.xlabel('Amostragem')
+
+
+plt.show()
    
     plt.show()
 
