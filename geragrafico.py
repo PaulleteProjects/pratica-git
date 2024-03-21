@@ -34,8 +34,25 @@ def main():
     plt.legend(loc='upper left')
 
 
+
+    #Plotando gráfico de linhas
+    plt.subplot(1, 2, 1)
+
+
+    plt.xlabel('Valores de entrada')
+    plt.ylabel('Amostragem')    
+    plt.title('Gráfico de linhas')
+
+
+    i = 1
+    for serie in valores:
+        plt.plot(serie, label = 'Série ' + str(i))
+        i += 1
+    plt.legend(loc='upper left')
+
+
     #Plotando gráfico de barras (médias)
-    plt.subplot(1, 2, 2)git add .
+    plt.subplot(1, 2, 2)
    
     medias = leitor.getMedias()
     xvalues = np.arange(1, len(medias)+1)
@@ -44,7 +61,6 @@ def main():
     plt.title('Médias das séries')
    
     plt.show()
-
 
 
 main()
