@@ -18,9 +18,4 @@ class LeitorArquivo:
             medias.append(sum(serie) / len(serie))
         return medias 
 
-     def getMedias(self):
-        medias = []
-        for serie in self.valores:
-            medias.append(sum(serie) / len(serie))
-        return medias
     
